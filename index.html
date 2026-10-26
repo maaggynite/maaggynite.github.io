@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Margaret Nite Anyango | Data Analyst</title>
+<meta name="description" content="Freelance data analyst in Nairobi, Kenya. Excel, Power BI, Tableau and R dashboards, reports and statistical analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plum:#2e1320; --rose:#b8758a; --rose-deep:#8f4d64; --blush:#f6e8ee; --paper:#fffafc; --ink:#2a1a22; --line:#e3c9d3;
+  --display:"Bricolage Grotesque","Segoe UI",Arial,sans-serif; --body:"Instrument Sans","Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;font-size:1.05rem}
+a{color:var(--rose-deep)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 1.5rem}
+h1,h2,h3{font-family:var(--display);line-height:1.15;font-weight:700}
+h2{font-size:clamp(1.6rem,3.5vw,2.2rem);margin-bottom:1.5rem}
+section{padding:4rem 0}
+header.top{background:var(--plum);color:#fff}
+nav{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;padding:1rem 0;font-size:.95rem}
+nav a{color:#e9cfd9;text-decoration:none}
+nav a:hover{color:#fff;text-decoration:underline}
+.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:2.5rem;align-items:center;padding:3rem 0 4.5rem}
+.hero h1{font-size:clamp(2.4rem,6vw,4.2rem);margin-bottom:1rem;color:#fff}
+.hero p.lead{font-size:1.2rem;color:#e9cfd9;max-width:34ch;margin-bottom:1.5rem}
+.tools{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2rem}
+.tools span{border:1px solid var(--rose);color:#f3dbe4;border-radius:999px;padding:.2rem .85rem;font-size:.9rem}
+.btn{display:inline-block;background:var(--rose);color:var(--plum);font-weight:600;text-decoration:none;padding:.75rem 1.4rem;border-radius:6px;margin-right:.6rem}
+.btn:hover{background:#d19aab}
+.btn.alt{background:transparent;color:#fff;border:1px solid var(--rose)}
+.photo{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;background:var(--rose-deep)}
+.about{background:var(--blush)}
+.about p{max-width:68ch}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.7rem;margin-top:1.5rem}
+.chips li{list-style:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:.5rem 1rem;text-align:center;font-size:.95rem}
+.case{border-top:2px solid var(--plum);padding:2rem 0 2.5rem}
+.case .tag{display:inline-block;background:var(--blush);border:1px solid var(--line);color:var(--rose-deep);font-size:.85rem;font-weight:600;padding:.15rem .7rem;border-radius:4px;margin-bottom:.7rem}
+.case h3{font-size:1.6rem;margin-bottom:1rem}
+.case dl{display:grid;grid-template-columns:8rem 1fr;gap:.6rem 1rem;max-width:760px;margin-bottom:1.2rem}
+.case dt{font-weight:600}
+.case ul{margin:0 0 1rem 1.2rem;max-width:760px}
+.case li{margin-bottom:.35rem}
+.stats{display:flex;flex-wrap:wrap;gap:1rem;margin:1.2rem 0}
+.stat{background:var(--plum);color:#fff;border-radius:6px;padding:.9rem 1.2rem;min-width:140px}
+.stat b{display:block;font-family:var(--display);font-size:1.6rem;color:#f0c3d2}
+.stat small{color:#e0c4cf}
+.note{font-size:.9rem;color:#6b5560;font-style:italic}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem}
+.skills h3{font-size:1.1rem;margin-bottom:.4rem;color:var(--rose-deep)}
+.skills ul{list-style:none;margin-bottom:1rem}
+.skills li{padding:.15rem 0}
+.timeline article{border-left:3px solid var(--rose);padding:0 0 1.6rem 1.2rem}
+.timeline h3{font-size:1.15rem}
+.timeline .meta{font-size:.92rem;color:#6b5560;margin-bottom:.4rem}
+.timeline ul{margin-left:1.1rem}
+.contact{background:var(--plum);color:#fff}
+.contact h2{color:#fff}
+.contact a{color:#f0c3d2}
+.contact dl{display:grid;grid-template-columns:7rem 1fr;gap:.5rem 1rem}
+.contact dt{color:#e0c4cf}
+footer{padding:1.5rem 0;font-size:.9rem;color:#6b5560;text-align:center}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.photo{max-width:320px}.case dl{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <nav aria-label="Main">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+      <div>
+        <h1>Margaret Nite Anyango</h1>
+        <p class="lead">Data analyst turning raw data into clear, actionable insights.</p>
+        <div class="tools"><span>Excel</span><span>Power BI</span><span>Tableau</span><span>R</span></div>
+        <a class="btn" href="#projects">See my projects</a>
+        <a class="btn alt" href="#contact">Get in touch</a>
+      </div>
+      <!-- Add your photo to this repo as photo.jpg -->
+      <img class="photo" src="photo.jpg" alt="Portrait of Margaret Nite Anyango" onerror="this.style.display='none'">
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="about" class="about">
+  <div class="wrap">
+    <h2>About</h2>
+    <p>I’m a freelance data analyst who works across Excel, Power BI, Tableau and R to turn messy, disconnected data into dashboards and reports that people actually use. My focus is not just building charts. It’s framing the right question, cleaning the data properly, and presenting findings so a decision-maker can act on them in minutes.</p>
+    <ul class="chips" aria-label="Services">
+      <li>Data analysis</li><li>Data cleaning</li><li>Excel data analysis</li><li>Excel dashboards</li><li>Business analytics</li><li>KPI analysis</li>
+      <li>Data visualization</li><li>Power BI dashboards</li><li>Tableau dashboards</li><li>Statistical analysis</li><li>R programming</li><li>Reports and executive summaries</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p class="note" style="margin-bottom:1.5rem">All three are sample projects built on demo or publicly available data. They show my approach and craft, not real client work.</p>
+
+    <article class="case">
+      <span class="tag">Sample project</span>
+      <h3>Retail sales dashboard (Power BI)</h3>
+      <dl>
+        <dt>Objective</dt><dd>Build an interactive dashboard showing revenue, profit, customers, orders, regions and sales channels.</dd>
+        <dt>Approach</dt><dd>Imported and modeled five CSV datasets, created relationships and DAX measures, and built KPIs, charts and slicers.</dd>
+      </dl>
+      <ul>
+        <li>Profit margin was about 30.3% ($129.77M profit on $428.27M revenue).</li>
+        <li>Electronics led category revenue; Office Supplies was lowest.</li>
+        <li>Central and West led regions at about $87M each; Rift trailed at about $82M.</li>
+        <li>Consumer was the largest customer segment by revenue.</li>
+      </ul>
+      <img src="images/retail-dashboard.png" alt="Retail sales dashboard in Power BI" style="max-width:100%;border-radius:6px;margin-bottom:.8rem" onerror="this.style.display='none'">
+      <p><a href="https://github.com/yourusername/retail-sales-powerbi">View on GitHub</a></p>
+    </article>
+
+    <article class="case">
+      <span class="tag">Sample project</span>
+      <h3>Advertising spend vs sales (R)</h3>
+      <dl>
+        <dt>Objective</dt><dd>Analyze sales patterns and test the relationship between advertising spend and sales.</dd>
+        <dt>Approach</dt><dd>Data cleaning, exploratory analysis, correlation, linear regression and visualization with tidyverse and ggplot2.</dd>
+      </dl>
+      <div class="stats">
+        <div class="stat"><b>6.94</b><small>Slope: sales per unit of ad spend</small></div>
+        <div class="stat"><b>0.9979</b><small>R²</small></div>
+        <div class="stat"><b>p &lt; 0.001</b><small>n = 12 months, demo data</small></div>
+      </div>
+      <p style="max-width:760px">Sales showed a very strong positive association with advertising spend (r = 0.999) within this sample. This shows association, not proof of causation.</p>
+      <p style="margin-top:.8rem"><a href="https://github.com/yourusername/ad-spend-sales-regression-r">View on GitHub</a></p>
+    </article>
+
+    <article class="case">
+      <span class="tag">Sample project</span>
+      <h3>Employee attrition analysis (Tableau)</h3>
+      <dl>
+        <dt>Objective</dt><dd>Identify attrition patterns and workforce factors linked to higher turnover.</dd>
+        <dt>Approach</dt><dd>Analyzed attrition KPIs across departments, roles, tenure, overtime and job satisfaction. Built two interactive dashboards and an executive report.</dd>
+        <dt>Data</dt><dd>IBM HR Analytics Employee Attrition and Performance dataset (public).</dd>
+      </dl>
+      <ul>
+        <li>Overtime employees had a 30.53% attrition rate versus 10.44% for those without overtime.</li>
+        <li>Low job satisfaction was associated with a 22.84% attrition rate.</li>
+        <li>Sales had the highest departmental attrition at 20.63%.</li>
+        <li>Employees with under one year of tenure had the highest attrition of any tenure group.</li>
+        <li>HR priorities: manage overtime, strengthen first-year onboarding, review Sales Representative roles.</li>
+      </ul>
+      <p><a href="https://github.com/yourusername/employee-attrition-tableau">View on GitHub</a></p>
+    </article>
+  </div>
+</section>
+
+<section id="skills" class="about">
+  <div class="wrap skills">
+    <h2>Skills and training</h2>
+    <div class="grid2">
+      <div>
+        <h3>Excel</h3><ul><li>Advanced formulas and array logic</li><li>Pivot tables and charts</li><li>Power Query</li><li>Dashboard building</li></ul>
+        <h3>Power BI</h3><ul><li>Data modeling</li><li>DAX measures</li><li>Interactive report design</li><li>Power Query (M)</li></ul>
+      </div>
+      <div>
+        <h3>Data visualization and business analytics</h3><ul><li>Chart choice and storytelling</li><li>KPI and scorecard design</li><li>Tableau dashboards</li><li>Trend and variance analysis, forecasting basics</li></ul>
+        <h3>R programming</h3><ul><li>tidyverse, ggplot2, dplyr</li><li>Data wrangling and visualization</li><li>Statistical testing</li></ul>
+      </div>
+      <div class="timeline">
+        <article><h3>BSc Statistics</h3><p class="meta">Taita Taveta University, 2018 to 2023</p></article>
+        <article><h3>Business Intelligence / Dashboards</h3><p class="meta">Microsoft certificate, Jan to Jun 2024</p></article>
+        <article><h3>Data Visualization and Analytics</h3><p class="meta">ALX Africa certificate, Jan to Aug 2025</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap timeline">
+    <h2>Experience</h2>
+    <article>
+      <h3>Freelance Data Analyst</h3>
+      <p class="meta">Self-employed, remote, Kenya. January 2025 to present</p>
+      <ul><li>Analyze datasets to find patterns, trends and opportunities.</li><li>Build interactive dashboards that track key performance indicators.</li><li>Clean and prepare data so analysis is reliable.</li><li>Turn findings into clear recommendations for each stakeholder.</li></ul>
+    </article>
+    <article>
+      <h3>Business Data Analyst</h3>
+      <p class="meta">DiraForge, contract, Nairobi County. January to December 2024</p>
+      <ul><li>Cleaned, organized and validated datasets before analysis.</li><li>Explored data to identify patterns and support analytical tasks.</li><li>Prepared reports, charts and visualizations and presented them to the team.</li></ul>
+    </article>
+    <article>
+      <h3>Enumerator</h3>
+      <p class="meta">United Nations, contract, Machakos County. October to November 2023</p>
+      <ul><li>Collected and validated agricultural data and kept accurate records.</li><li>Analyzed farming households and value chain actors to identify trends.</li><li>Worked with supervisors to keep fieldwork on schedule.</li></ul>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Let’s turn your data into a clearer decision</h2>
+    <p style="margin-bottom:1.5rem;max-width:60ch">Available for freelance dashboard builds, reporting cleanup and analysis projects in Excel, Power BI, R and Tableau. Send a short message about your goal and your data, and we’ll agree scope, timeline and price.</p>
+    <dl>
+      <dt>Email</dt><dd><a href="mailto:margaretnite@gmail.com">margaretnite@gmail.com</a></dd>
+      <dt>WhatsApp</dt><dd><a href="https://wa.me/254708328750">0708 328 750</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://linkedin.com/in/margaret-anyango-nite">linkedin.com/in/margaret-anyango-nite</a></dd>
+      <dt>Location</dt><dd>Nairobi, Kenya. Remote, on-site and hybrid.</dd>
+    </dl>
+  </div>
+</section>
+</main>
+<footer>© 2026 Margaret Nite Anyango</footer>
+</body>
+</html>
