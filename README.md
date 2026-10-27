@@ -1,1 +1,1 @@
-# maagynite.github.io
+# maaggynite.github.io
